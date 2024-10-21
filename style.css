@@ -31,6 +31,7 @@ button{
     color: #E5E7EB;
 }
 .b2Content{
+    /*come back to this*/
     border: 2px solid #3882F6;
     border-radius: 6px;
     margin: 2px;
@@ -40,10 +41,38 @@ button{
     color: #1F2937;
     font-weight: 900;
 }
+.body3{
+    background-color: #E5E7EB;
+}
+blockquote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+}
+.b3Attribution{
+    font-weight: 900;
+    color: #1F2937;
+    padding-left: 50px;
+}
+.b4ContentHeader{
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 24px;
+}
+.b4Content{
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 6px;
+}
+#cta{
+    border: 2px solid white;
+}
 #cats{
     width: 25%;
 }
 .footer{
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 10px;
 }
