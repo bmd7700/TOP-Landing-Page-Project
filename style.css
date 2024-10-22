@@ -11,11 +11,12 @@
 .linkbar{
     display: flex;
     justify-content: space-around;
+    padding: 20px;
 }
 .linkbar a{
     font-size: 18px;
     color: #E5E7EB;
-    padding: 20px;
+    padding-right: 20px;
 }
 .logo{
     margin-left: 5%;
@@ -35,7 +36,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
 }
 .b1LeftContainer{
     padding: 20px;
@@ -69,6 +70,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
 .b2ContentContainer{
     display: flex;
@@ -102,34 +104,54 @@ blockquote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    padding: 10px 50px 10px;
+    padding: 30px 50px 30px;
     font-weight: lighter;
 }
 .b3Attribution{
     display: flex;
     font-weight: 900;
     color: #1F2937;
-    padding-right: 50px;
+    padding-right: 80px;
+    padding-bottom: 20px;
     justify-content: right;
 }
-.b4ContentHeader{
+.body4{
+    display: flex;
     background-color: #3882F6;
     color:#E5E7EB;
     font-size: 24px;
-}
-.b4Content{
-    font-size: 18px;
-    padding: 20px;
     border-radius: 6px;
+    margin: 5% 10% 5%;
+    padding: 20px 40px 20px;
+    justify-content: space-around;
+}
+.b4LeftContainer{
+    display: flex;
+    flex-direction: column;
+}
+.b4ContentHeader{
+    font-size: 24px;
+    color: #F9FAF8
+    padding: 5px;
+}
+.b4SubHeader{
+    font-size: 18px;
+    padding: 5px;
+}
+.b4RightContainer{
+    display: flex;
 }
 #cta{
     border: 2px solid white;
+    padding: 10px 20px;
 }
 #cats{
     width: 50%;
 }
 .footer{
+    display: flex;
     background-color: #1F2937;
     color: #E5E7EB;
     padding: 10px;
+    justify-content: space-around;
 }
